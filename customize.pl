@@ -16,7 +16,7 @@ print $name;
 
 print qq|'; document.getElementById('00N30000008kB6x').value = '5'; document.getElementById('00N30000006gryZ').value = 'fixed'; var x = document.getElementsByClassName('dateFormat')[0].innerHTML; var start = x.search(/>/); var end = x.search(/a>/); var date = x.slice(start+1,end-2); document.getElementById('00N30000006gryP').value = date; void(0); }">CLOSE TICKET</a>|;
 
-print "<h3>2. edit an incident (ticket)</h3>";
+print "<h3>2. log into salesforce, edit an incident (ticket)</h3>";
 print "<h3>3. click on bookmarklet in your bookmarks toolbar to populate required fields</h3>";
 print "<h3>4. click save in ticket</h3>";
 
