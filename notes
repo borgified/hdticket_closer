@@ -1,0 +1,29 @@
+javascript: { document.getElementById('CF00N30000006gryA').value = "CLOSED"; document.getElementById('CF00N30000006gry6').value = "Juan"; document.getElementById('00N30000008kB6x').value = "5"; document.getElementById('00N30000006gryZ').value = "fixed"; var now = new Date(); function AddZero(num) { return (num >= 0 && num < 10) ? "0" + num : num + ""; }; function FixHour(num) { return (num >= 13 ? num - 12 : num); }; var strDateTime = [[now.getMonth() + 1, now.getDate(), now.getFullYear()].join("/"), [FixHour(now.getHours()), AddZero(now.getMinutes())].join(":"), now.getHours() >= 12 ? "PM" : "AM"].join(" "); document.getElementById('00N30000006gryP').value = strDateTime; void(0); }
+
+
+function FixHour(num) {
+	return (num >= 13 ? num - 12 : num);
+}
+
+
+function FixHour(num) { return (num >= 13 ? num - 12 : num); }
+
+9/9/2013 4:15 PM
+
+
+var now = new Date();
+var strDateTime = [[now.getDate(), now.getMonth() + 1, now.getFullYear()].join("/"), [now.getHours(), now.getMinutes()].join(":"), now.getHours() >= 12 ? "PM" : "AM"].join(" ");
+alert(strDateTime);
+
+
+javascript: { var now = new Date(); var strDateTime = [[now.getDate(), now.getMonth() + 1, now.getFullYear()].join("/"), [now.getHours(), now.getMinutes()].join(":"), now.getHours() >= 12 ? "PM" : "AM"].join(" "); alert(strDateTime); }
+
+
+document.getElementsByName("cancel").submit();
+
+document.editPage.submit();
+
+getElementByIdCS('CF00N30000006gry6_lkid').value='';getElementByIdCS('CF00N30000006gry6_mod').value='1'; document.getElementById('CF00N30000006gry6').value = "Juan Carlos Tong"; document.getElementById('CF00N30000006gry6').onfocus('CF00N30000006gry6'); AutoCompleteInputElement.click('CF00N30000006gry6005', 0)
+
+
+top.window.opener.lookupPick('editPage','CF00N30000006gry6_lkid','CF00N30000006gry6','','00530000009Z8Ip','Juan Carlos Tong','','')
