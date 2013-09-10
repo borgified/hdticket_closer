@@ -27,3 +27,26 @@ getElementByIdCS('CF00N30000006gry6_lkid').value='';getElementByIdCS('CF00N30000
 
 
 top.window.opener.lookupPick('editPage','CF00N30000006gry6_lkid','CF00N30000006gry6','','00530000009Z8Ip','Juan Carlos Tong','','')
+
+javascript: { var x = document.getElementsByClassName('dateFormat').value;alert(x); }
+
+[&nbsp;<a href="javascript:void(DatePicker.insertDate('9/10/2013 4:24 PM', '00N30000006gryT', true));" tabindex="7">9/10/2013 4:24 PM</a>&nbsp;]
+
+javascript: { 
+var x = document.getElementsByClassName('dateFormat')[0].innerHTML; 
+var start = x.search(/">/);
+var end = x.search(/<\//);
+alert(start,end); }
+
+#this grabs the date from the document itself so we dont have to figure it out on our own
+javascript: { var x = document.getElementsByClassName('dateFormat')[0].innerHTML; var start = x.search(/">/); var end = x.search(/<\//); var date = x.slice(start+2,end); alert(date); }
+
+
+javascript: { document.getElementById('CF00N30000006gryA').value = "CLOSED"; document.getElementById('CF00N30000006gry6').value = "Juan"; document.getElementById('00N30000008kB6x').value = "5"; document.getElementById('00N30000006gryZ').value = "fixed"; var x = document.getElementsByClassName('dateFormat')[0].innerHTML; var start = x.search(/">/); var end = x.search(/<\//); var date = x.slice(start+2,end); document.getElementById('00N30000006gryP').value = date; void(0); }
+
+
+
+javascript: { document.getElementById('CF00N30000006gryA').value = "CLOSED"; document.getElementById('CF00N30000006gry6').value = "Juan"; document.getElementById('00N30000008kB6x').value = "5"; document.getElementById('00N30000006gryZ').value = "fixed"; var x = document.getElementsByClassName('dateFormat')[0].innerHTML; var start = x.search(/>/); var end = x.search(/<\//); var date = x.slice(start+1,end); document.getElementById('00N30000006gryP').value = date; void(0); }
+
+
+javascript: { document.getElementById('CF00N30000006gryA').value = 'CLOSED'; document.getElementById('CF00N30000006gry6').value = 'Juan'; document.getElementById('00N30000008kB6x').value = '5'; document.getElementById('00N30000006gryZ').value = 'fixed'; var x = document.getElementsByClassName('dateFormat')[0].innerHTML; var start = x.search(/>/); var end = x.search(/<\//); var date = x.slice(start+1,end); document.getElementById('00N30000006gryP').value = date; void(0); }
