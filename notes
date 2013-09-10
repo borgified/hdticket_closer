@@ -23,7 +23,7 @@ document.getElementsByName("cancel").submit();
 
 document.editPage.submit();
 
-getElementByIdCS('CF00N30000006gry6_lkid').value='';getElementByIdCS('CF00N30000006gry6_mod').value='1'; document.getElementById('CF00N30000006gry6').value = "Juan Carlos Tong"; document.getElementById('CF00N30000006gry6').onfocus('CF00N30000006gry6'); AutoCompleteInputElement.click('CF00N30000006gry6005', 0)
+getElementByIdCS('CF00N30000006gry6_lkid').value='';getElementByIdCS('CF00N30000006gry6_mod').value='1'; document.getElementById('CF00N30000006gry6').value = "Juan"; document.getElementById('CF00N30000006gry6').onfocus('CF00N30000006gry6'); AutoCompleteInputElement.click('CF00N30000006gry6005', 0)
 
 
 top.window.opener.lookupPick('editPage','CF00N30000006gry6_lkid','CF00N30000006gry6','','00530000009Z8Ip','Juan Carlos Tong','','')
